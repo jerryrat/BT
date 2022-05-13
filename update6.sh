@@ -43,7 +43,7 @@ if [ -f $env_path ];then
 	mypip="/www/server/panel/pyenv/bin/pip"
 fi
 
-download_Url=http://download.bt.cn
+download_Url=http://bt.pgcms.cc
 setup_path=/www
 version=$(curl -Ss --connect-timeout 5 -m 2 https://api.yu.al/api/panel/get_version)
 if [ "$version" = '' ];then
